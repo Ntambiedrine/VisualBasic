@@ -1,0 +1,17 @@
+Module Exercise1
+    Sub Main()
+        ' Prompt user for name, age, and favorite color
+        Console.Write("Enter your name: ")
+        Dim name As String = Console.ReadLine()
+
+        Console.Write("Enter your age: ")
+        Dim age As Integer = Convert.ToInt32(Console.ReadLine())
+
+        Console.Write("Enter your favorite color: ")
+        Dim color As String = Console.ReadLine()
+
+        ' Display the message
+        Console.WriteLine("Hello " & name & "! You are " & age & " years old and your favorite color is " & color & ".")
+        Console.ReadLine()
+    End Sub
+End Module
